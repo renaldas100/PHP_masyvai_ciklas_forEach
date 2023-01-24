@@ -3,6 +3,21 @@
 if (isset($_POST['temp'])) {
     $temp = explode(',', $_POST['temp']);
 
+
+
+//    $ggg=$temp;
+//
+//    arsort($temp);
+//    print_r($temp);
+//    print_r(array_unique($temp,SORT_NUMERIC));
+
+//    echo (implode(',',array_unique($temp,SORT_NUMERIC)));
+//    $aaa=(implode(',',array_unique($temp,SORT_NUMERIC)));
+//    print_r(gettype($aaa));
+
+
+
+
     $sum = 0;
     $maxmax = -100;
     $max = -100;
